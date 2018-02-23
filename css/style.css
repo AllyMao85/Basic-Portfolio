@@ -1,0 +1,182 @@
+
+
+* {
+	
+	box-sizing: border-box;
+}
+.navbar{
+	margin: 0 350px;
+	
+}
+
+.bcontent {
+	Margin: 0 200px;
+	padding:20px;
+	padding-bottom:50px;
+	
+
+}
+body {
+	height: 100%;
+	margin:0;
+	background-color:#dddddd;
+	/* color:#777777; */
+    font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* @media screen and (min-width: 768px) */
+header {
+	height:80px;
+	padding-top: 20px;
+	background-color:#ffffff;
+	font-family: 'Georgia', Times, 'Times New Roman', Serif;
+	border-color:#cccccc;
+}
+
+
+#profilename {
+	background-color:#4aaaa5;
+	border-color:#cccccc;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	float: left;
+	color: white;
+	font-size: 36px;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+li {
+	
+	float:right;	
+	
+}
+
+#portfolioli {
+	margin-right: 10px;
+	margin-top: 20px;
+	
+}
+
+#contactli {
+	margin-right: 10px;
+	margin-top: 20px;
+	border-left: 1px solid;
+	padding-left:10px;
+
+}
+#aboutli {
+	margin-right: 10px;
+	margin-top: 20px;
+	border-right: 1px solid;
+	padding-right:10px;
+}
+a {
+	
+	font-size: 16px;
+	color: grey;
+
+	width: 20%;
+
+}
+
+a:hover {
+	text-shadow:2px 2px grey;
+}
+
+nav {
+	color: #777777;
+}
+
+.clearfix {
+	background-color:#dddddd;
+	min-height:100%
+	/* height: auto; */
+	/* height: calc(100%-250px); */
+	/* overflow: auto; */
+}
+
+
+article {
+
+	background-color:white;
+	/* height: auto; */
+	width: 650px;
+	float: left;
+   
+	
+}
+.aboutme {
+	/* margin: 0 30px; */
+	border: 0.5px solid #dddddd;
+	padding: 20px 30px;
+	font-size: 20px;
+	overflow:auto;
+	height:auto;
+	
+}
+
+h3 {
+	color:#4aaaa5;
+	font-weight:bold;
+}
+
+img {
+	width:30%;
+	float:left;
+   
+}
+
+
+aside {
+	float:right;
+	background-color:white;
+	height:auto;
+	width: 270px;
+	
+
+	
+	
+}
+/* p {
+	margin: 0 10px;
+} */
+
+.connectme {
+    /* margin-left: 30px; */
+	border: 0.5px solid #dddddd;
+	padding: 20px 10px;
+	text-align:center;
+	height: auto;
+}
+
+.clearfix::after {
+  content:"";
+  Display:block;
+  Clear: both;
+}
+
+
+ footer {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	
+}
+
+.container {
+	bottom:0;
+	background-color: #666666;
+    border-top:8px solid #4aaaa5;
+	width: 100%;
+	height:100px;
+	
+	
+}
+.footertext {
+	font-size:14px;
+	text-align: center;
+	margin-top:20px;
+}
